@@ -1,0 +1,56 @@
+using System;
+using System.Collections.Generic;
+using System.Text.Json.Nodes;
+
+namespace ReverseCampus
+{
+    public enum ProduceExamAutoEvaluationType
+    {
+        Unknown,
+        Parameter,
+        Block,
+        Stamina,
+        ExamLessonBuff,
+        ExamReview,
+        ExamCardPlayAggressive,
+        ExamParameterBuff,
+        ExamStaminaConsumptionDown,
+        ExamStaminaConsumptionAdd,
+        ExamBlockAddDown,
+        ExamGimmickLessonDebuff,
+        ExamGimmickParameterDebuff,
+        ExamGimmickSleepy,
+        ExamGimmickSlump,
+        ExamStaminaConsumptionDownFix,
+        PlayableValueAdd,
+        ParameterBuffMultiplePerTurn,
+        ParameterBuffOverTurn,
+        ExamExtraTurn,
+        ExamConcentration,
+        ExamPreservation,
+        ExamFullPower,
+        ExamFullPowerPointTotal,
+        ExamConcentrationCount,
+        ExamPreservationCount,
+        ExamFullPowerCount,
+        HoldCount,
+        DrawCardCount,
+        RemainTurn,
+        ExamAntiDebuff,
+        StanceLock,
+        ExamBlockRestriction,
+        ExamLessonValueMultiple,
+        ExamReviewMultiple,
+        ExamEnthusiasticAdditive,
+        ExamEnthusiasticMultiple,
+        ExamFullPowerLessonMultipleAdditive,
+        ExamConcentrationLessonMultipleAdditive,
+        ExamLessonBuffAdditive,
+        ExamParameterBuffAdditive,
+        ExamAggressiveAdditive,
+        ExamReviewAdditive,
+        ExamFullPowerPointAdditive,
+        ExamGrowEffectLessonAddAdditive,
+        ExamLessonValueMultipleDependReviewOrAggressive,
+    }
+}

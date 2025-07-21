@@ -1,0 +1,55 @@
+using System;
+using System.Collections.Generic;
+using System.Text.Json.Nodes;
+
+namespace ReverseCampus
+{
+    public enum ProduceExamPhaseType
+    {
+        Unknown,
+        ExamCardDraw,
+        ExamCardPlay,
+        ExamCardPlayAfter,
+        ExamStartTurn,
+        ExamEndTurn,
+        ExamStartExam,
+        ExamCardMove,
+        ExamCardAdd,
+        ExamLesson,
+        ExamForecast,
+        ExamSearchCardPlay,
+        ExamStanceChange,
+        ExamStatusChange,
+        ExamTurnCheck,
+        ExamUseDrink,
+        ExamGetPoint,
+        ExamShuffle,
+        ExamStaminaReduce,
+        ExamTurnTimer,
+        ExamTurnInterval,
+        ExamPlayCountInterval,
+        ExamStaminaReduceCard,
+        ExamPlayTurnCountInterval,
+        StartPlay,
+        StartExamPlay,
+        ExamCardMoveHand,
+        ExamCardMoveGrave,
+        ExamCardMoveLost,
+        ExamLessonParameterUp,
+        ExamBuffConsume,
+        ExamStanceChangeCountInterval,
+        ExamStanceChangeCount,
+        ExamStanceChangeConcentration,
+        ExamStanceChangePreservation,
+        ExamStanceChangeFullPower,
+        ExamStanceReset,
+        ExamTurnSkip,
+        ExamEndTurnTimer,
+        ExamEndTurnInterval,
+        ExamPlayCountIntervalAfter,
+        ExamStanceChangeFromConcentration,
+        ExamStanceChangeFromPreservation,
+        ExamStanceChangeFromFullPower,
+        None,
+    }
+}
